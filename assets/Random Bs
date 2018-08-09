@@ -1,0 +1,61 @@
+<div id="bigImage">
+            <div class="jumbotron">
+                <img src="assets/high-school-students.jpg">
+            </div>
+    </div>
+    <div id="images"> 
+        <img id="learn" src="assets/icons8-workspace-480.png">
+        <img id="study" src="assets/icons8-school-480.png">
+        <img id="collab" src="assets/collaboration-female-male.png">
+    </div>
+    <div id="imagesText">
+        <p id="learnText">With a growing community and great catolog of resources and tools, nothing is impossible to learn </p>
+        <p id="studyText">A proffessional workspace is something that everyone craves. Inquirix provides that environment and forces you into study habbits that will overtime become hard to break</p>
+        <p id="collabText">Collaborating with friends and family has never been easier and more encouraged. Now you and your friends can improve as scholars, two heads were always better than one</p>
+    </div>
+    <div id="signUp">
+        
+    </div>
+    <div id="footer">
+
+    </div> -->
+    
+
+
+
+
+    
+#images{
+    display: flex;
+    justify-content: space-around;
+}
+
+#collab{
+    height: 300px;
+}
+
+#study{
+    height: 300px;
+}
+
+#learn{
+    height: 300px;
+}
+
+#imagesText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#collabText{
+    width: 300px;
+}
+
+#studyText{
+    width: 300px;
+}
+
+#learnText{
+    width: 300px;
+}
